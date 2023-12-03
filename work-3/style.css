@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    color: #444343;
+}
+
+.header-bg {
+    background-image: url(./image/think-out-box-concepts-with-lightbulb-box\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-area-3-image {
+    background-image: url(./image/Rectangle\ 3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-text {
+    padding: 250px 0;
+}
+
+.header-text h2 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.header-text p {
+    padding: 24px 0;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
+.header-text button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 35px;
+    border: none;
+    color: #005FAC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.header-text button:hover {
+    background-color: #F15B22;
+    color: #fff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.main-area-contant {
+    padding: 100px 0;
+}
+
+.contant-text {
+    max-width: 416px;
+    margin-top: 151px;
+    margin-left: 120px;
+}
+
+.contant-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contant-text p {
+    color: #444343;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.contant-text a {
+    text-decoration: none;
+    color: #444343;
+    line-height: 26px;
+}
+
+.contant-text ul {
+    margin-left: -30px;
+    margin-top: 16px;
+}
+
+.contant-text li {
+    margin-bottom: 8px;
+}
+
+.contant-text i {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+.contant-image {
+    position: relative;
+    z-index: 1;
+}
+
+.contant-image::after {
+    position: absolute;
+    height: 527px;
+    width: 527px;
+    content: "";
+    bottom: -1px;
+    right: 18px;
+    border-radius: 50%;
+    background: rgba(241, 91, 34, 0.20);
+    z-index: -1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.main-area-2-contant {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main-area-2-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-area-2-taitle {
+    padding: 80px 0;
+}
+
+.main-area-2-taitle h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.main-area-2-logo-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.main-area-2-logo-text p {
+    margin-top: 25px;
+}
+
+.main-area-3-img {
+    background-image: url(./image/Rectangle\ 3.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: 1;
+}
+
+.main-area-3-text {
+    padding: 100px;
+    text-align: start;
+}
+
+.main-area-3-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.main-area-3-text button {
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 24px;
+}
+
+.main-area-3-text button:hover {
+    background-color: #F15B22;
+    color: #fff;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+
+}
+
+.main-area-3-img {
+    position: relative;
+}
+
+.main-area-3-img::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./image/Rectangle\ 4\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    content: "";
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer-contant {
+    background-color: #151414;
+}
+
+.footer-item {
+    display: flex;
+    padding: 80px 0;
+    margin-top: 200px;
+}
+
+.footer-text h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+
+.footer-text p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.footer-contant a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 16px 0;
+    color: #FFFFFF;
+}
+
+.icon a {
+    border: 1px solid #fff;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
+    background-color: #FFFFFF;
+}
+
+.icon a .fa-brands.fa-facebook {
+    color: #006AFF;
+}
+
+.icon a .fa-brands.fa-twitter {
+    color: #1DA1F2;
+}
+
+.icon a .fa-brands.fa-youtube {
+    color: #FF0000;
+}
+
+
+.footer-text-2 {
+    margin-left: 331px;
+}
+
+.footer-text-2 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.footer-text-2 input {
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: none;
+    margin-top: 31px;
+    padding: 20px;
+}
+
+.footer-text-2 button {
+    width: 170px;
+    height: 64px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 16px;
+    background-color: #005FAC;
+    color: #fff;
+    border: none;
+}
+
+.footer-text-2 button:hover {
+    background-color: #F15B22;
+    color: #333;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
